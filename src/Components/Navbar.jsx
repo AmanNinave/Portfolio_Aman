@@ -8,7 +8,7 @@ export default function Navbar() {
 
       <span className="logo"><i className="fab fa-node-js"></i> Aman</span>
 
-      <div id="menu" class="fas fa-bars"></div>
+      {/* <div id="menu" class="fas fa-bars"></div> */}
 
       <nav className="navbar">
         <ul>
