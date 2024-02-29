@@ -8,7 +8,7 @@ export default function Skills() {
     <section className="skills" id="skills">
       <h2 className="heading"><i className="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
       <div className="container">
-          <div ref={skillsContainer} className="row" id="skillsContainer">
+          <div  className="row" id="skillsContainer">
               {
                 SkillsData.map((skill) => {
                   return (
