@@ -4,6 +4,7 @@ import Profile from "./../../public/vite.svg";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import { particlesObject } from "./Config/particles.config";
+import { ReactTyped } from "react-typed";
 
 export default function Home() {
   const [init, setInit] = useState(false);
@@ -41,7 +42,13 @@ export default function Home() {
           <br /> I'm Aman <span>Ninave</span>
         </h3>
         <p>
-          i am  <span className="typing-text">Full-Stack Developer</span>
+          i am &nbsp;
+          <ReactTyped 
+              strings={[" Full-Stack Developer" , " Tech Mentor"]} 
+              typeSpeed={40}
+              backSpeed={50}
+              loop
+          />
         </p>
 
         <button class="btn">
