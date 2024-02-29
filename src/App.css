@@ -45,3 +45,7 @@ button {
     background-color: rgba(255, 255, 255, 0);
 }
 
+section{
+  min-height: 100vh;
+  padding: 2rem 9%;
+}

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './Components/Navbar'
+import Home from './Pages/Home'
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <Home/>
       
       
     </>
