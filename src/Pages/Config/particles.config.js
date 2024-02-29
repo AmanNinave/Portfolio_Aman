@@ -4,7 +4,7 @@ export const particlesObject = {
         value: "#0d47a1",
       },
     },
-    fpsLimit: 120,
+    fpsLimit: 150,
     interactivity: {
       events: {
         onClick: {
@@ -21,7 +21,7 @@ export const particlesObject = {
           quantity: 4,
         },
         repulse: {
-          distance: 200,
+          distance: 250,
           duration: 0.4,
         },
       },
@@ -32,7 +32,7 @@ export const particlesObject = {
       },
       links: {
         color: "#ffffff",
-        distance: 150,
+        distance: 200,
         enable: true,
         opacity: 0.5,
         width: 1,

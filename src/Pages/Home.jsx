@@ -1,12 +1,13 @@
 import React ,{useState , useEffect , useMemo } from "react";
 import "./Styles/Home.css";
-import Profile from "./../../public/vite.svg";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import { particlesObject } from "./Config/particles.config";
+import Profile from "./../../public/vite.svg";
 import { ReactTyped } from "react-typed";
 
 export default function Home() {
+
   const [init, setInit] = useState(false);
 
   useEffect(() => {
@@ -30,12 +31,14 @@ export default function Home() {
 
 
   return (
+    
     <section className="home" id="home">
       <Particles
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
       />
+
       <div className="content">
         <h3>
           Hi There,
@@ -51,9 +54,9 @@ export default function Home() {
           />
         </p>
 
-        <button class="btn">
+        <button className="btn">
           <span>Know More About Me </span>
-          <i class="fas fa-arrow-circle-up"></i>
+          <i className="fas fa-arrow-circle-up"></i>
         </button>
 
         <div className="socials">

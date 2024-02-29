@@ -1,15 +1,19 @@
-import { useState } from 'react'
+import React ,{useState , useEffect , useMemo } from "react";
 import './App.css'
+
+
 import Navbar from './Components/Navbar'
 import Home from './Pages/Home'
+import About from './Pages/About'
 
 function App() {
-  
 
   return (
     <>
       <Navbar/>
+
       <Home/>
+      <About/>
       
       
     </>
