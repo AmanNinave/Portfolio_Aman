@@ -1,0 +1,16 @@
+[
+    {
+        "college_img" : "./YcceImage.jpg",
+        "college_url" : "https://ycce.edu/",
+        "college" : "Yeshwantrao Chavan College of Engineering, Nagpur",
+        "field" : "B-Tech | Mechanical Engineering",
+        "duration" : "2018 - 2023" 
+    },
+    {
+        "college_img" : "./YcceImage.jpg",
+        "college_url" : "https://ycce.edu/",
+        "college" : "Yeshwantrao Chavan College of Engineering, Nagpur",
+        "field" : "B-Tech | Mechanical Engineering",
+        "duration" : "2018 - 2023" 
+    }
+]

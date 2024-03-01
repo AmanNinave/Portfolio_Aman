@@ -1,7 +1,41 @@
-import React from 'react'
+import React from "react";
+import "./Styles/Education.css";
+import EducationData from "./Config/Education.json";
 
-export default function Education() {
+const Education = () => {
   return (
-    <div>Education</div>
-  )
-}
+    <section className="education" id="education">
+      <h1 className="heading">
+        <i className="fas fa-graduation-cap"></i> My <span>Education</span>
+      </h1>
+      <p className="quote" id="quote" style={{ color : "#fff" , fontSize : "1.5rem" }}>
+        Education is not the learning of facts, but the training of the mind to
+        think. 
+      </p>
+      <div className="box-container">
+        {EducationData.map((elem) => {
+          return (
+            <div className="box">
+              <div className="image">
+                <a href={elem.college_url}>
+                  <img
+                    draggable="false"
+                    src={elem.college_img}
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="content">
+                <h3>{elem.field}</h3>
+                <p>{elem.college}</p>
+                <h4>{elem.duration}</h4>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+};
+
+export default Education;

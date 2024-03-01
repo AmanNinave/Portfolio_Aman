@@ -62,7 +62,7 @@ section.experience#experience {
     border: medium solid #0f46a2;
     border-width: 10px 0 10px 10px;
     border-color: #0f46a2 transparent  #0f46a2 transparent ;       /*   Need to change the color */
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.90);
   }
   /* arrows pointing left  */
   .experience .right::before {
@@ -77,14 +77,14 @@ section.experience#experience {
     border-width: 10px 10px 10px 0;
     border-color: #0f46a2 transparent #0f46a2 transparent;          /*   Need to change the color */
     /* background-color : #0d47a1 ; */
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.90);
   }
   .experience .right::after {
     left: -16px;
   }
   .experience .content {
     /* background-color: #0f46a2; */
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.90);
     position: relative;
     border-radius: 6px;
     color: black;

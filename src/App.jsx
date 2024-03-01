@@ -8,6 +8,7 @@ import About from './Pages/About'
 import Skills from "./Pages/Skills";
 import Projects from "./Pages/Projects";
 import Experience from "./Pages/Experience";
+import Education from "./Pages/Education";
 
 function App() {
 
@@ -18,8 +19,9 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
-      <Projects/>
       <Experience/>
+      <Projects/>
+      <Education/>
       
       
     </>

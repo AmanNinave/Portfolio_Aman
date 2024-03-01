@@ -15,8 +15,8 @@ export default function Navbar() {
           <li><button className="active" > Home </button> </li>
           <li><button > About </button> </li>
           <li><button > Skills </button> </li>
-          <li><button > Projects </button> </li>
           <li><button > Experience </button> </li>
+          <li><button > Projects </button> </li>
           <li><button > Education </button> </li>
           <li><button > Contact </button> </li>
         </ul>  
