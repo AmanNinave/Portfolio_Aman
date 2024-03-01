@@ -16,9 +16,8 @@ export default function About() {
             <div className="content">
                 <h3>I'm Aman</h3>
                 <span className="tag">Passionate Full Stack Developer | Tech Mentor </span>
-                <p>Currently working as a Technical Mentor at Kalvium 
-                    <br />
-                    <br />
+                <p>
+                    
                     Love to dig and explore fundamental Engineering concepts around the Web listening to conferences, podcasts 🎧 and reading articles over the Internet.<br />
                     <br />
                     Get to know my skills and what I do in short. 👇
@@ -26,14 +25,10 @@ export default function About() {
                     I solve problems using Data Structures and Algorithms. ( 500+ problems )
 
                     <br />
-                    <br />
-                    If you're looking for a Full-stack developer who can bring innovation and efficiency to your projects, I'm here to take your web development endeavors to the next level. Let's connect and explore new opportunities together.
                     </p>
 
                 <br />
-                <br />
                 <div className="box-container">
-                    
                     <div className="box">
                         <p><span> email : </span> amanninave987@gmail.com</p>
                         <p><span> place : </span> Nagpur, Maharashtra, India </p>

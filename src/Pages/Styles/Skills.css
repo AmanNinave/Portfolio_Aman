@@ -7,7 +7,7 @@
   }
   .skills h2 {
     color: #fff;
-    margin: 10rem;
+    margin-bottom: 3rem;
   }
   .skills .heading span {
     color: rgb(255, 230, 0);
@@ -19,7 +19,7 @@
     padding: 2rem;
     width: 90%;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 1rem;
   }
   .skills .container .row {
     display: grid;

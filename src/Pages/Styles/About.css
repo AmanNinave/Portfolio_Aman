@@ -2,13 +2,14 @@
 .about {
     background: rgb(255, 255, 255 , 0);
     position: relative;
+    height: 95vh;
   }
   .about .row{
     display: flex;
     flex-direction: row;
     gap: 2rem;
     flex-wrap: wrap;
-    padding: 4rem;
+    padding: 2rem;
   }
   .about .row .image {
     text-align: center;

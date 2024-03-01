@@ -1,6 +1,5 @@
 import React from 'react'
-import './Styles/Projects.css'
-import dummyImg from './../assets/react.svg'
+import './Styles/Projects.css' 
 import ProjectsData from './Config/Projects.json'
 
 export default function Projects() {
@@ -8,7 +7,7 @@ export default function Projects() {
     <section className="work" id="work">
         <h2 className="heading"><i className="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
         <div className="box-container">
-          
+
             {
                 ProjectsData.map( project => {
                   return (
