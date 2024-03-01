@@ -5,14 +5,14 @@
   text-align: center;
 }
 
-/* .education .heading {
+.education .heading {
   color: #fff;
   padding: 1rem;
 }
 
 .education .heading span {
   color: rgb(255, 230, 0);
-} */
+}
 
  .education .qoute {                            /*   This is not working */
   text-align: center;
