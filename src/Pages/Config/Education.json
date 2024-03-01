@@ -1,16 +1,16 @@
 [
     {
-        "college_img" : "./YcceImage.jpg",
-        "college_url" : "https://ycce.edu/",
-        "college" : "Yeshwantrao Chavan College of Engineering, Nagpur",
-        "field" : "B-Tech | Mechanical Engineering",
-        "duration" : "2018 - 2023" 
+        "college_img" : "./fullstackDeveloperImage.webp",
+        "college_url" : "https://www.masaischool.com/",
+        "college" : "Masai School | Online",
+        "field" : "Bootcamp | Full-stack Developement ( MERN )",
+        "duration" : "July 2022 - March 2023" 
     },
     {
         "college_img" : "./YcceImage.jpg",
         "college_url" : "https://ycce.edu/",
         "college" : "Yeshwantrao Chavan College of Engineering, Nagpur",
         "field" : "B-Tech | Mechanical Engineering",
-        "duration" : "2018 - 2023" 
+        "duration" : "August 2018 - June 2021" 
     }
 ]

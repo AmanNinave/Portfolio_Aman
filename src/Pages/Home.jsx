@@ -41,7 +41,7 @@ export default function Home() {
 
       <div className="content">
         <h3>
-          Hi There,
+          Hi There 👋
           <br /> I'm Aman <span>Ninave</span>
         </h3>
         <p>

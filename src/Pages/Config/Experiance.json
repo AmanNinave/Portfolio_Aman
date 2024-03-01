@@ -1,14 +1,14 @@
 [
     {
-        "company" : "Reliance",
-        "position" : "Senior Executive",
-        "duration" : "Oct 2022 - Jan 2023", 
-        "description" : "was working as senior Executivewas working as senior Executive dlkdfod lfjdlfjdo ijldj foiej sljfodj dois fiajfldjoe adoije fjdejojdjf ifj was working as senior Executive dlkdfod lfjdlfjdo ijldj foiej sljfodj dois fiajfldjoe adoije fjdejojdjf ifj"
+        "company" : "Kalvium",
+        "position" : "Technical Mentor / MERN Developer",
+        "duration" : "June 2023 - Present", 
+        "description" : "Offering guidance and mentorship to students facing challenges, including live code-along sessions. Resolving technical queries and tracking progress. Conducting student interviews for assessment."
     },
     {
         "company" : "Reliance",
         "position" : "Senior Executive",
         "duration" : "Oct 2022 - Jan 2023", 
-        "description" : "was working as senior Executive dlkdfod lfjdlfjdo ijldj foiej sljfodj dois fiajfldjoe adoije fjdejojdjf ifjwas working as senior Executive dlkdfod lfjdlfjdo ijldj foiej sljfodj dois fiajfldjoe adoije fjdejojdjf ifj"
+        "description" : "Managed productivity reporting, scheduling 110 associates based on sales forecasts, overseeing training and evaluation, resolving technical and non-technical order processing issues, and leading the implementation of a new cluster-picking method resulting in a 25% increase in productivity."
     }
 ]
