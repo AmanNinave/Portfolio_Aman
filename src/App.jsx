@@ -10,6 +10,7 @@ import Projects from "./Pages/Projects";
 import Experience from "./Pages/Experience";
 import Education from "./Pages/Education";
 import Contact from "./Pages/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Projects/>
       <Education/>
       <Contact/>
+      <Footer/>
       
       
     </>
