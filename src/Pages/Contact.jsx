@@ -8,6 +8,10 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
+  const username = useRef();
+  const email = useRef();
+  const phone = useRef();
+  const message = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,6 +26,10 @@ const Contact = () => {
       .then(
         () => {
           console.log('SUCCESS!');
+          username.current.value = "";
+          phone.current.value = "";
+          email.current.value = "";
+          message.current.value = "";
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -40,19 +48,19 @@ const Contact = () => {
           <form id="contact-form" ref={form} onSubmit={sendEmail}>
             <div className="form-group">
               <div className="field">
-                <input type="text" name="user_name" placeholder="Name" required />
+                <input type="text" ref={username} name="user_name" placeholder="Name" required />
                 <i className='fas fa-user'></i>
               </div>
               <div className="field">
-                <input type="text" name="user_email" placeholder="Email" required />
+                <input type="text" ref={email} name="user_email" placeholder="Email" required />
                 <i className='fas fa-envelope'></i>
               </div>
               <div className="field">
-                <input type="text" name="user_phone" placeholder="Phone" />
+                <input type="text" ref={phone} name="user_phone" placeholder="Phone" />
                 <i className='fas fa-phone-alt'></i>
               </div>
               <div className="message">
-                <textarea placeholder="Message" name="message" required></textarea>
+                <textarea placeholder="Message" ref={message} name="message" required></textarea>
                 <i className="fas fa-comment-dots"></i>
               </div>
             </div>
