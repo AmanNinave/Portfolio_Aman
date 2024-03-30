@@ -1,14 +1,14 @@
 [
     {
         "company" : "Kalvium",
-        "position" : "Technical Mentor / MERN Developer",
+        "position" : "Full-Stack Developer / Mentor",
         "duration" : "June 2023 - Present", 
-        "description" : "Offering guidance and mentorship to students facing challenges, including live code-along sessions. Resolving technical queries and tracking progress. Conducting student interviews for assessment."
+        "description" : ["Utilized React & NodeJS to develop an attendance management tool, incorporating Redux for state management" , "Offer guidance and mentorship to students of batch size 40 on DSA& Full-stack development" , "Facilitated hands-on learning through live code-along sessionsin DSA& Fullstack development" , "Document & track students' learning journeysto effectively monitor & ensure their progress" ]
     },
     {
         "company" : "Reliance",
         "position" : "Senior Executive",
         "duration" : "Oct 2022 - Jan 2023", 
-        "description" : "Managed productivity reporting, scheduling 110 associates based on sales forecasts, overseeing training and evaluation, resolving technical and non-technical order processing issues, and leading the implementation of a new cluster-picking method resulting in a 25% increase in productivity."
+        "description" : ["Enhanced productivity by developing a real-time performance monitoring platform using MERN technology" , "Led a project to optimize cluster picking processes, resulting in a significant 25% productivity increase." , "Led the team while a new cluster-picking method was being implemented in thewarehouse" , "Responsible for planning and scheduling 110 associates" , "Monitoring, evaluating, and training associatesto maintain a high level of productivity and work quality" , "Preparing and presenting reports on productivity and order processing to zonal and city leads"]
     }
 ]

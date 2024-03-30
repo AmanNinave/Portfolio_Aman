@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h1 className="credit">Designed with <i className="fa fa-heart pulse"></i> by <a href=""> Aman Ninave </a></h1>
+      <h1 className="credit">Made with <i className="fa fa-heart pulse"></i> by <a href=""> Aman Ninave </a></h1>
     </section>
   );
 };

@@ -11,7 +11,11 @@ const ExperienceEntry = ({ company, position, duration, description , index}) =>
           <div className="desc">
             <h3>{position}</h3>
             <p>{duration}</p>
-            <p>{description}</p>
+            <ul>
+              {description.length > 0 && description.map((elem => {
+                return <li> {elem}</li>
+              }))}
+            </ul>
           </div>
         </div>
       </div>

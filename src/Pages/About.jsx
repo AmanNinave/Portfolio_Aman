@@ -22,8 +22,9 @@ export default function About() {
                     <br />
                     Get to know my skills and what I do in short. 👇
                     <br /><br />
-                    I solve problems using Data Structures and Algorithms. ( 500+ problems )
-
+                    I have solved over 500 problems using Data Structures and Algorithms, showcasing a strong grasp of web development technologies such as React, Node.js, MongoDB, and others.
+                    <br />
+                    My practical experience includes developing real-world applications that enhance efficiency and productivity. I am passionate about mentoring and supporting others in their web development journeys.
                     <br />
                     </p>
 
@@ -36,7 +37,7 @@ export default function About() {
                 </div>
                 
                 <div className="resumebtn">
-                    <a href="./assests/Aman_Ninave_Resume.pdf" className="btn"><span>Resume </span>
+                    <a href="https://drive.google.com/file/d/18eopvpn2KOoiqy7qVN1KZqylVlpgGohO/view?usp=sharing" className="btn"><span>Resume </span>
                         <i className="fas fa-chevron-right"></i>
                     </a>
                 </div>

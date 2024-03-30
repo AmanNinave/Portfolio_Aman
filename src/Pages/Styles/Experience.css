@@ -24,6 +24,7 @@ section.experience#experience {
     position: relative;
     background-color: inherit;
     width: 50%;
+    /* padding-left: 20px; */
   }
   /*circles on timeline*/
   .experience .container::after {    
@@ -95,7 +96,7 @@ section.experience#experience {
     padding-left: 1.5rem;
   }
   .experience .content .desc{
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     padding-bottom: 1rem;
   }
   .experience .content .desc h3{
