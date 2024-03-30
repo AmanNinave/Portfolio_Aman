@@ -3,12 +3,24 @@
         "company" : "Kalvium",
         "position" : "Full-Stack Developer / Mentor",
         "duration" : "June 2023 - Present", 
-        "description" : ["Utilized React & NodeJS to develop an attendance management tool, incorporating Redux for state management" , "Offer guidance and mentorship to students of batch size 40 on DSA& Full-stack development" , "Facilitated hands-on learning through live code-along sessionsin DSA& Fullstack development" , "Document & track students' learning journeysto effectively monitor & ensure their progress" ]
+        "description" : [
+            "Utilized React & NodeJS to develop an attendance management tool, incorporating Redux for state management" , 
+            "Offer guidance and mentorship to students of batch size 40 on DSA& Full-stack development" , 
+            "Facilitated hands-on learning through live code-along sessions in DSA& Fullstack development" , 
+            "Document & track students' learning journeys to effectively monitor & ensure their progress" 
+        ]
     },
     {
         "company" : "Reliance",
         "position" : "Senior Executive",
         "duration" : "Oct 2022 - Jan 2023", 
-        "description" : ["Enhanced productivity by developing a real-time performance monitoring platform using MERN technology" , "Led a project to optimize cluster picking processes, resulting in a significant 25% productivity increase." , "Led the team while a new cluster-picking method was being implemented in thewarehouse" , "Responsible for planning and scheduling 110 associates" , "Monitoring, evaluating, and training associatesto maintain a high level of productivity and work quality" , "Preparing and presenting reports on productivity and order processing to zonal and city leads"]
+        "description" : [ 
+            "Enhanced productivity by developing a real-time performance monitoring platform using MERN technology" ,
+            "Led a project to optimize cluster picking processes, resulting in a significant 25% productivity increase." ,
+            "Led the team while a new cluster-picking method was being implemented in the warehouse" ,
+            "Responsible for planning and scheduling 110 associates by taking order forecasts from the salesteam" ,
+            "Monitoring, evaluating, and training associates to maintain a high level of productivity and work quality" ,
+            "Preparing and presenting reports on productivity and order processing to zonal and city leads"
+        ]
     }
 ]

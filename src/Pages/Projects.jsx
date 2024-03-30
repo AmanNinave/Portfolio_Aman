@@ -19,6 +19,10 @@ export default function Projects() {
                             </div>
                             <div className="desc">
                                 <p> {project.description} </p>
+                                <br />
+                                <p> <span className='bold'>Tech Stacks :- </span> {project.tech_stack} </p>
+                                <br />
+                                <p> <span className='bold'>Features :- </span> {project.features} </p>
                                 <div className="btns">
                                     <a href={project.github} className="btn" target="_blank"><i className="fas fa-eye"></i> View</a>
                                     <a href={project.deployed} className="btn" target="_blank"><i className="fas fa-code"></i> Code</a>

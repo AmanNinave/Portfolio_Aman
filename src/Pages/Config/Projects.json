@@ -1,30 +1,38 @@
 [
     {
-        "img" : "https://img.icons8.com/color/48/000000/redux.png" ,
-        "title" : "Warehouse Manager",
-        "description" : "Warehouse app which is used to manage Warehouse",
-        "github" : "github",
-        "deployed" : "deployed"
+        "img" : "prod_man.png" ,
+        "title" : "ProTrack",
+        "tech_stack" : "React | Redux | MongoDB | Express js | Node js",
+        "description" : "A website for tracking productivity, utilized to monitor the performance of warehouse associates..",
+        "features" : "website offers features like adding new associates, Task management, Time tracking, changing shifts, a dashboard to show the statistics of associates, teams current status.",
+        "github" : "https://github.com/AmanNinave/ProTrack",
+        "deployed" : "https://protrack.onrender.com"
     },
     {
-        "img" : "https://img.icons8.com/color/48/000000/redux.png" ,
-        "title" : "Warehouse Manager",
-        "description" : "Warehouse app which is used to manage Warehouse",
-        "github" : "github",
-        "deployed" : "deployed"
+        "img" : "spotify.png" ,
+        "title" : "Spotify",
+        "tech_stack" : "HTML | CSS | JavaScript",
+        "description" : "A platform offering digital music, podcast, and video streaming services.",
+        "features" : "The website offers features like user authentication, voice and text song search, playback controls, playlist creation, volume adjustment, and responsive design.",
+        "github" : "https://github.com/ritikraj07/Project_Spotify.com",
+        "deployed" : "New Deployed link after update"
     },
     {
-        "img" : "https://img.icons8.com/color/48/000000/redux.png" ,
-        "title" : "Warehouse Manager",
-        "description" : "Warehouse app which is used to manage Warehouse",
-        "github" : "github",
-        "deployed" : "deployed"
+        "img" : "ikea.png" ,
+        "title" : "IKEA",
+        "tech_stack" : "React | Redux | CSS | JavaScript",
+        "description" : "An e-commerce platform that sells ready-to-assemble furniture and home accessories.",
+        "features" : "The website offers user authentication, product filtering, cart and wish-list functions, product search, payment integration, and a responsive design.",
+        "github" : "https://github.com/AmanNinave/IKEA/tree/main/ikea-clone",
+        "deployed" : "https://ikea-clone-ruddy.vercel.app/"
     },
     {
-        "img" : "https://img.icons8.com/color/48/000000/redux.png" ,
-        "title" : "Warehouse Manager",
-        "description" : "Warehouse app which is used to manage Warehouse",
-        "github" : "github",
-        "deployed" : "deployed"
+        "img" : "skinstore.png" ,
+        "title" : "Skinstore",
+        "tech_stack" : "HTML | CSS | JavaScript",
+        "description" : "An e-commerce platform that offers a vast catalog of beauty products, including skincare, haircare, and makeup.",
+        "features" : "The website offers user authentication, product filtering, cart and wish-list functions, product search, payment integration, and a responsive design.",
+        "github" : "https://github.com/AmanNinave/Skin_Store_Clone",
+        "deployed" : "https://idyllic-biscuit-d36106.netlify.app/an-skinstore/homepage/"
     }
 ]

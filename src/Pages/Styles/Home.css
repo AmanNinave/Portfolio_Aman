@@ -98,7 +98,7 @@
     display:inline-block;
     margin-bottom:14px
   }
-  .social-icons button {
+  .social-icons a {
     font-size:2rem;
     display:inline-block;
     line-height:44px;

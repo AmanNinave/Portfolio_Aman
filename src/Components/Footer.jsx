@@ -26,7 +26,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/aman-ninave-61890a1aa/" className="fab fa-linkedin" target="_blank"></a>
             <a href="https://github.com/AmanNinave" className="fab fa-github" target="_blank"></a>
             <a href="mailto:mesouravofficial@gmail.com" className="fas fa-envelope" target="_blank"></a>
-            <a href="https://www.instagram.com/amanninave/" className="fab fa-instagram" target="_blank"></a>
+            {/* <a href="https://www.instagram.com/amanninave/" className="fab fa-instagram" target="_blank"></a> */}
           </div>
         </div>
       </div>

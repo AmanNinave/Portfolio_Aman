@@ -47,7 +47,7 @@ export default function Home() {
         <p>
           i am &nbsp;
           <ReactTyped 
-              strings={[" Full-Stack Developer" , " Tech Mentor"]} 
+              strings={[" Full-Stack Developer" , " Tech Mentor" , "Problem Solver"]} 
               typeSpeed={40}
               backSpeed={50}
               loop
@@ -62,39 +62,39 @@ export default function Home() {
         <div className="socials">
           <ul className="social-icons">
             <li>
-              <button
+              <a
                 className="linkedin"
                 href="https://www.linkedin.com/in/aman-ninave-61890a1aa/"
                 target="_blank"
               >
                 <i className="fab fa-linkedin"></i>
-              </button>
+              </a>
             </li>
             <li>
-              <button
+              <a
                 className="github"
                 href="https://github.com/AmanNinave"
                 target="_blank"
               >
                 <i className="fab fa-github"></i>
-              </button>
+              </a>
             </li>
-            <li>
+            {/* <li>
               <button
                 className="instagram"
                 href="https://www.instagram.com/amanninave987/"
               >
                 <i className="fab fa-instagram" target="_blank"></i>
               </button>
-            </li>
+            </li> */}
             <li>
-              <button
+              <a
                 className="gmail"
                 href="mailto:amanninave987@gmail.com "
                 target="_blank"
               >
                 <i className="fas fa-envelope"></i>
-              </button>
+              </a>
             </li>
           </ul>
         </div>
