@@ -2,9 +2,9 @@ import React from 'react';
 import './Styles/Contact.css'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-// import dotenv from 'dotenv';
 
-// dotenv.config();
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const form = useRef();
@@ -12,6 +12,8 @@ const Contact = () => {
   const email = useRef();
   const phone = useRef();
   const message = useRef();
+
+
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -30,9 +32,31 @@ const Contact = () => {
           phone.current.value = "";
           email.current.value = "";
           message.current.value = "";
+          toast.success('🚀 Message Sent!', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            
+            });
         },
         (error) => {
           console.log('FAILED...', error.text);
+          toast.error('😔 Failed!', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            
+            });
         },
       );
   };
@@ -70,6 +94,20 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <ToastContainer
+      className="tostContainer"
+      position="top-center"
+      autoClose={5000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="light"
+      transition: Bounce
+      />
     </section>
   );
 };

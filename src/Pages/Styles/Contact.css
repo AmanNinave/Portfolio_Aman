@@ -134,6 +134,13 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
+
+.tostContainer{
+  position: relative;
+  z-index: 1000;
+  margin-top: 45px;
+}
+
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
