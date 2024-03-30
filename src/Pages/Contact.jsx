@@ -1,10 +1,32 @@
 import React from 'react';
 import './Styles/Contact.css'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+// import dotenv from 'dotenv';
+
+// dotenv.config();
 
 const Contact = () => {
-  const handleSubmit = (e) => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+
+    emailjs
+      .sendForm( 
+        import.meta.env.VITE_APP_EMAIL_SERVICE_ID ,
+        import.meta.env.VITE_APP_EMAIL_TEMPLATE_ID , 
+        form.current, {
+        publicKey: import.meta.env.VITE_APP_EMAIL__PUBLIC_KEY,
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
 
   return (
@@ -15,18 +37,18 @@ const Contact = () => {
           <div className="image-box">
             <img draggable="false" src="./contact1.png" alt="" />
           </div>
-          <form id="contact-form" onSubmit={handleSubmit}>
+          <form id="contact-form" ref={form} onSubmit={sendEmail}>
             <div className="form-group">
               <div className="field">
-                <input type="text" name="name" placeholder="Name" required />
+                <input type="text" name="user_name" placeholder="Name" required />
                 <i className='fas fa-user'></i>
               </div>
               <div className="field">
-                <input type="text" name="email" placeholder="Email" required />
+                <input type="text" name="user_email" placeholder="Email" required />
                 <i className='fas fa-envelope'></i>
               </div>
               <div className="field">
-                <input type="text" name="phone" placeholder="Phone" />
+                <input type="text" name="user_phone" placeholder="Phone" />
                 <i className='fas fa-phone-alt'></i>
               </div>
               <div className="message">
@@ -35,7 +57,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="button-area">
-              <button type="submit">Submit <i className="fa fa-paper-plane"></i></button>
+              <button type="submit" value="send">Submit <i className="fa fa-paper-plane"></i></button>
             </div>
           </form>
         </div>
