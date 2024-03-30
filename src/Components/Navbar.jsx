@@ -12,13 +12,13 @@ export default function Navbar() {
 
       <nav className="navbar">
         <ul>
-          <li><button className="active" > Home </button> </li>
-          <li><button > About </button> </li>
-          <li><button > Skills </button> </li>
-          <li><button > Experience </button> </li>
-          <li><button > Projects </button> </li>
-          <li><button > Education </button> </li>
-          <li><button > Contact </button> </li>
+          <a href="#home"> <li><button className="active" > Home </button> </li> </a>
+          <a href="#about"><li><button > About </button> </li> </a> 
+          <a href="#skills"><li><button > Skills </button> </li> </a> 
+          <a href="#experience"><li><button > Experience </button> </li></a> 
+          <a href="#work"><li><button > Projects </button> </li> </a>
+          <a href="#education"><li><button > Education </button> </li> </a>
+          <a href="#contact"><li><button > Contact </button> </li> </a>
         </ul>  
           
       </nav>

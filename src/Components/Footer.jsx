@@ -14,9 +14,9 @@ const Footer = () => {
           <a href="#home"><i className="fas fa-chevron-circle-right"></i> home</a>
           <a href="#about"><i className="fas fa-chevron-circle-right"></i> about</a>
           <a href="#skills"><i className="fas fa-chevron-circle-right"></i> skills</a>
-          <a href="#education"><i className="fas fa-chevron-circle-right"></i> education</a>
-          <a href="#work"><i className="fas fa-chevron-circle-right"></i> work</a>
           <a href="#experience"><i className="fas fa-chevron-circle-right"></i> experience</a>
+          <a href="#work"><i className="fas fa-chevron-circle-right"></i> projects</a>
+          <a href="#education"><i className="fas fa-chevron-circle-right"></i> education</a>
         </div>
         <div className="box">
           <h3>contact info</h3>
