@@ -24,8 +24,8 @@ export default function Projects() {
                                 <br />
                                 <p> <span className='bold'>Features :- </span> {project.features} </p>
                                 <div className="btns">
-                                    <a href={project.github} className="btn" target="_blank"><i className="fas fa-eye"></i> View</a>
-                                    <a href={project.deployed} className="btn" target="_blank"><i className="fas fa-code"></i> Code</a>
+                                    <a href={project.deployed} className="btn" target="_blank"><i className="fas fa-eye"></i> View</a>
+                                    <a href={project.github} className="btn" target="_blank"><i className="fas fa-code"></i> Code</a>
                                 </div>
                             </div>
                         </div>

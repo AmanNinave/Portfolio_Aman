@@ -6,7 +6,7 @@
         "description" : "A website for tracking productivity, utilized to monitor the performance of warehouse associates..",
         "features" : "website offers features like adding new associates, Task management, Time tracking, changing shifts, a dashboard to show the statistics of associates, teams current status.",
         "github" : "https://github.com/AmanNinave/ProTrack",
-        "deployed" : "https://protrack.onrender.com"
+        "deployed" : "https://pro-track-home.vercel.app/"
     },
     {
         "img" : "spotify.png" ,
@@ -15,7 +15,7 @@
         "description" : "A platform offering digital music, podcast, and video streaming services.",
         "features" : "The website offers features like user authentication, voice and text song search, playback controls, playlist creation, volume adjustment, and responsive design.",
         "github" : "https://github.com/ritikraj07/Project_Spotify.com",
-        "deployed" : "New Deployed link after update"
+        "deployed" : "https://ritikraj07.github.io/Project_Spotify.com/HTML/index.html"
     },
     {
         "img" : "ikea.png" ,
