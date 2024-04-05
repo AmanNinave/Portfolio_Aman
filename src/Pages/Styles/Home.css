@@ -17,12 +17,13 @@
   }
   .home .content{
     flex: 1 1 40rem;
-    padding-top: 1rem;
+    padding-top: 7rem;
     z-index: 1;
   }
   .home .image{
     flex: 1 1 40rem;
     z-index: 1;
+    padding-top: 5rem;
   }
   .home .image img{
     width: 70%;

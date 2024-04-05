@@ -108,6 +108,7 @@ export default function Home() {
           alt="Aman's Image"
         />
       </div>
+      
     </section>
   );
 }
