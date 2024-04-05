@@ -1,7 +1,7 @@
 import Particles from '@tsparticles/react'
 import React from 'react'
 import './Styles/About.css';
-import Profile from "./../../public/vite.svg";
+import Profile from "/ProfessionalPhotoAI.jpg";
 
 export default function About() {
   return (

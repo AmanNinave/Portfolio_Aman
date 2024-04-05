@@ -3,7 +3,7 @@ import "./Styles/Home.css";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import { particlesObject } from "./Config/particles.config";
-import Profile from "./../../public/vite.svg";
+import Profile from "/ProfessionalPhoto1-removebgcrop.png";
 import { ReactTyped } from "react-typed";
 
 export default function Home() {

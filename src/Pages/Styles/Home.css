@@ -26,10 +26,12 @@
   }
   .home .image img{
     width: 70%;
+    /* height: 70%; */
     margin-left: 6rem;
-    border-radius: 50%;
+    border-radius: 10%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    /* object-fit:scale-down; */
   }
   .home .image img:hover{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
