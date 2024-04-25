@@ -9,9 +9,9 @@ export default function Projects() {
         <div className="box-container">
 
             {
-                ProjectsData.map( project => {
+                ProjectsData.map( (project , idx ) => {
                   return (
-                    <div className="box tilt">
+                    <div key={idx} className="box tilt">
                         <img draggable="false" src={project.img} alt="" />
                         <div className="content">
                             <div className="tag">

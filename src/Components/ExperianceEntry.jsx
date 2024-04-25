@@ -12,9 +12,9 @@ const ExperienceEntry = ({ company, position, duration, description , index}) =>
             <h3>{position}</h3>
             <p>{duration}</p>
             <ul>
-              {description.length > 0 && description.map((elem => {
-                return <li> {elem}</li>
-              }))}
+              {description.length > 0 && description.map((elem , idx )=> {
+                return <li key={idx}> {elem}</li>
+              })}
             </ul>
           </div>
         </div>

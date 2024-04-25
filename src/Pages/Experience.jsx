@@ -14,6 +14,7 @@ export default function Experience() {
           ExperienceData.map( ( Experiance  , index )=> {
             return (
               <ExperienceEntry
+              key={index}
               company={Experiance.company}
               position={Experiance.position}
               duration= {Experiance.duration}

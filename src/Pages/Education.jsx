@@ -13,9 +13,9 @@ const Education = () => {
         think. 
       </p>
       <div className="box-container">
-        {EducationData.map((elem) => {
+        {EducationData.map((elem , idx) => {
           return (
-            <div className="box">
+            <div key={idx} className="box">
               <div className="image">
                 <a href={elem.college_url}>
                   <img

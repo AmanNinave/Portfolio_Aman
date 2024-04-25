@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Styles/Navbar.css"
 
 export default function Navbar() {
 
   const [activePage , setActivePage ] = useState("home");
+  const [showIcon , setShowIcon ] = useState(false);
 
   return (
     <div className='header'>
@@ -11,10 +12,10 @@ export default function Navbar() {
 
       <a href="#home"><span className="logo" onClick={()=>setActivePage("home")} ><i className="fab fa-node-js"></i> Aman</span></a>
 
-      <div id="menu" className="fas fa-bars"></div>
+      <div id="menu" onClick={()=> {setShowIcon(!showIcon)}} className={showIcon ? "fas fa-bars" : "fa-times"} ></div>
 
-      <nav className="navbar">
-        <ul>
+      <nav className={ showIcon ? "navbar" : "navbar nav-toggle"}>
+        <ul onClick={()=> {setShowIcon(!showIcon)}}  >
           <a href="#home"> <li><button className={activePage == "home" ? "active" : "" }  onClick={()=>setActivePage("home")}> Home </button> </li> </a>
           <a href="#about"><li><button className={activePage == "about" ? "active" : "" } onClick={()=>setActivePage("about")} > About </button> </li> </a> 
           <a href="#skills"><li><button className={activePage == "skills" ? "active" : "" } onClick={()=>setActivePage("skills")}> Skills </button> </li> </a> 

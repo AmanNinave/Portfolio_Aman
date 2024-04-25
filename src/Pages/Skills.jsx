@@ -10,9 +10,9 @@ export default function Skills() {
       <div className="container">
           <div  className="row" id="skillsContainer">
               {
-                SkillsData.map((skill) => {
+                SkillsData.map((skill , idx ) => {
                   return (
-                    <div className="bar">
+                    <div key={idx} className="bar">
                       <div className="info">
                         <img src={skill.icon} alt="skill" />
                         <span>{skill.name}</span>
