@@ -5,6 +5,8 @@ import SkillsData from './Config/Skills.json';
 export default function Skills() {
 
   return (
+    <>
+    <div className='dummy-skills-div'></div>
     <section className="skills" id="skills">
       <h2 className="heading"><i className="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
       <div className="container">
@@ -24,5 +26,6 @@ export default function Skills() {
           </div>
       </div>
     </section>
+    </>
   )
 }

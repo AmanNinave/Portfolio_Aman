@@ -138,11 +138,20 @@
     .home .btn{
       margin: 4rem 0;
     }
+
     .socials{
-      margin-top: 12rem;
+      margin-top: -4rem;
     }
     .home .image img{
-      margin-top: -12rem;
+      margin-top: -5rem;
+    }
+    .home .content h3 , .home .content h3 span {
+      font-size: 3.5rem;
+    }
+
+    .home .content p ~ .btn {
+      position: relative;
+      top: -20px;
     }
     .home .content p {
       font-size: 2.2rem;

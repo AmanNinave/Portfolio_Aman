@@ -90,6 +90,9 @@
   }
   /* about media queries starts*/
   @media screen and (max-width: 600px){
+    .about .row {
+      flex-direction: column;
+    }
     .about .row .image{
       margin-top: 2rem;
     }

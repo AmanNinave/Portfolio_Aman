@@ -159,10 +159,10 @@ section.experience#experience {
       font-size: 2.2rem;
     }
     .experience .container::before {
-    left: 61px;
+    left: 70px;
     border: medium solid #0f46a2;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #0f46a2 transparent transparent;
+    border-color: #0f46a2 transparent #0f46a2 transparent;  
     }
     .experience .left::after {
       left: 15px;
