@@ -148,21 +148,21 @@ section.experience#experience {
       margin-top: 2rem;
     }
     .experience .timeline::after {
-    left: 31px;
+      left: 31px;
     }
     .experience .container {
-    width: 100%;
-    padding-left: 8rem;
-    padding-right: 2rem;
+      width: 100%;
+      padding-left: 8rem;
+      padding-right: 2rem;
     }
     .experience .container::after {   
       font-size: 2.2rem;
     }
     .experience .container::before {
-    left: 70px;
-    border: medium solid #0f46a2;
-    border-width: 10px 10px 10px 0;
-    border-color: #0f46a2 transparent #0f46a2 transparent;  
+      left: 70px;
+      border: medium solid #0f46a2;
+      border-width: 10px 10px 10px 0;
+      border-color: #0f46a2 transparent #0f46a2 transparent;  
     }
     .experience .left::after {
       left: 15px;
@@ -171,7 +171,7 @@ section.experience#experience {
       left: 15px;
     }
     .experience .right {
-    left: 0%;
+      left: 0%;
     }
     .morebtn {
       margin-top: 3rem;

@@ -19,7 +19,8 @@ export default function Skills() {
                         <img src={skill.icon} alt="skill" />
                         <span>{skill.name}</span>
                       </div>
-                    </div>)
+                    </div>
+                  )
                 })
               }
               

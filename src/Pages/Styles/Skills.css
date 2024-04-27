@@ -25,12 +25,15 @@
     margin-top: 1rem;
   }
   .skills .container .row {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr); */
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1.8rem;
   }
   .skills .container .bar {
+    width: 140px;
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 1rem;
@@ -61,6 +64,22 @@
 
 
   /* skills media queries starts*/
+
+  @media screen and (max-width: 1090px){
+    .dummy-skills-div{
+      display: block;
+      height: 440px;
+    }
+  }
+
+  @media screen and (max-width: 1090px){
+    .dummy-skills-div{
+      display: block;
+      height: 500px;
+    }
+  }
+
+
   @media screen and (max-width: 600px) {
 
     .dummy-skills-div {

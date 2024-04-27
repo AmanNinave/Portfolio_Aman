@@ -4,7 +4,7 @@ import "./Styles/Navbar.css"
 export default function Navbar() {
 
   const [activePage , setActivePage ] = useState("home");
-  const [showIcon , setShowIcon ] = useState(false);
+  const [showIcon , setShowIcon ] = useState(true);
 
   return (
     <div className='header'>
