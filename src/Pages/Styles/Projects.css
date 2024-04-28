@@ -16,6 +16,7 @@
   }
   .work .box-container{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap:1.5rem;
     margin: 2rem;
@@ -27,7 +28,9 @@
     position: relative;
     overflow:hidden;
     height:40rem;
+    max-width: 60rem;
   }
+
   .work .box-container .box img{
     position: absolute;
     top: -16%;

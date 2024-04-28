@@ -9,7 +9,6 @@ export default function Navbar() {
   return (
     <div className='header'>
 
-
       <a href="#home"><span className="logo" onClick={()=>setActivePage("home")} ><i className="fab fa-node-js"></i> Aman</span></a>
 
       <div id="menu" onClick={()=> {setShowIcon(!showIcon)}} className={showIcon ? "fas fa-bars" : "fa-times"} ></div>
