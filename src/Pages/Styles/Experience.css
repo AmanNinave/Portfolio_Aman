@@ -89,6 +89,7 @@ section.experience#experience {
     position: relative;
     border-radius: 6px;
     color: black;
+    padding: 0px 10px 0px 5px;
   }
   .experience .content .tag{
     font-size: 1.3rem;
