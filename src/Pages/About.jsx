@@ -31,7 +31,7 @@ export default function About() {
                 <br />
                 <div className="box-container">
                     <div className="box">
-                        <p><span> email : </span> amanninave987@gmail.com</p>
+                        <p><span> email : </span> hello@amanninave.in</p>
                         <p><span> place : </span> Nagpur, Maharashtra, India </p>
                     </div>
                 </div>
