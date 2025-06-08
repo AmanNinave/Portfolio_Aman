@@ -90,7 +90,7 @@ export default function Home() {
             <li>
               <a
                 className="gmail"
-                href="mailto:amanninave987@gmail.com "
+                href="mailto:hello@amanninave.in"
                 target="_blank"
               >
                 <i className="fas fa-envelope"></i>
