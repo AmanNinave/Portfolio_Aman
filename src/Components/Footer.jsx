@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div className="box">
           <h3>contact info</h3>
-          <p> <i className="fas fa-envelope"></i>amanninave987@gmail.com</p>
+          <p> <i className="fas fa-envelope"></i>hello@amanninave.in</p>
           <p> <i className="fas fa-map-marked-alt"></i>Nagpur, Maharashtra, India</p>
           <div className="share">
             <a href="https://www.linkedin.com/in/aman-ninave-61890a1aa/" className="fab fa-linkedin" target="_blank"></a>
