@@ -64,7 +64,7 @@ export default function Home() {
             <li>
               <a
                 className="linkedin"
-                href="https://www.linkedin.com/in/aman-ninave-61890a1aa/"
+                href="https://www.linkedin.com/in/amanninave"
                 target="_blank"
               >
                 <i className="fab fa-linkedin"></i>
