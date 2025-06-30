@@ -61,7 +61,7 @@ section.experience#experience {
     right: 30px;
     border: medium solid var(--primary);
     border-width: 10px 0 10px 10px;
-    border-color: var(--primary) transparent  var(--primary) transparent ;       /*   Need to change the color */
+    border-color: var(--background) transparent  var(--background) transparent ;       /*   Need to change the color */
     background-color: var(--card-bg);
   }
   /* arrows pointing left  */
@@ -75,7 +75,7 @@ section.experience#experience {
     left: 30px;
     border: medium solid var(--primary);
     border-width: 10px 10px 10px 0;
-    border-color: var(--primary) transparent var(--primary) transparent;          /*   Need to change the color */
+    border-color: var(--background) transparent var(--background) transparent;          /*   Need to change the color */
     /* background-color : #0d47a1 ; */
     background-color: var(--card-bg);
   }
