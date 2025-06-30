@@ -20,6 +20,7 @@ export default function Experience() {
                   position={Experiance.position}
                   duration= {Experiance.duration}
                   description= {Experiance.description}
+                  slug={Experiance.slug}
                   index ={index}
                 />
               </div>

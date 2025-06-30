@@ -1,5 +1,6 @@
 [
-    {
+    {   
+        "slug" : "pro-track",
         "img" : "prod_man.png" ,
         "title" : "ProTrack",
         "tech_stack" : "React | Redux | MongoDB | Express js | Node js",
@@ -9,6 +10,7 @@
         "deployed" : "https://pro-track-home.vercel.app/"
     },
     {
+        "slug" : "spotify",
         "img" : "spotify.png" ,
         "title" : "Spotify",
         "tech_stack" : "HTML | CSS | JavaScript",
@@ -18,6 +20,7 @@
         "deployed" : "https://ritikraj07.github.io/Project_Spotify.com/HTML/index.html"
     },
     {
+        "slug" : "ikea",
         "img" : "ikea.png" ,
         "title" : "IKEA",
         "tech_stack" : "React | Redux | CSS | JavaScript",
@@ -27,6 +30,7 @@
         "deployed" : "https://ikea-clone-ruddy.vercel.app/"
     },
     {
+        "slug" : "spotify",
         "img" : "skinstore.png" ,
         "title" : "Skinstore",
         "tech_stack" : "HTML | CSS | JavaScript",

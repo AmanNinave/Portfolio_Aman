@@ -2,7 +2,7 @@ import React from 'react'
 import './../Pages/Styles/Experience.css'
 import { Link } from 'react-router-dom'
 
-const ExperienceEntry = ({ company, position, duration, description , index}) => {
+const ExperienceEntry = ({ company, position, duration, description , index, slug}) => {
     return (
       <div className={ index%2== 0 ? "container left" : "container right"}>
         <div className="content">
@@ -20,7 +20,7 @@ const ExperienceEntry = ({ company, position, duration, description , index}) =>
               </ul>
             </div>
             <div className="exp-btn-container">
-              <Link to={`/experience/${index}`} className="btn"><i className="fas fa-info-circle"></i> Details</Link>
+              <Link to={`/experience/${slug}`} className="btn"><i className="fas fa-info-circle"></i> Details</Link>
             </div>
           </div>
         </div>

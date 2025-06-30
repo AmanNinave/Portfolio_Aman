@@ -4,9 +4,9 @@ import ProjectsData from './Config/Projects.json';
 import { motion } from 'framer-motion';
 
 const ProjectDetail = () => {
-  const { id } = useParams();
+  const { slug } = useParams();
   const navigate = useNavigate();
-  const project = ProjectsData[parseInt(id)];
+  const project = ProjectsData.find((proj) => proj.slug == slug);
 
   if (!project) return <div>Project not found.</div>;
 

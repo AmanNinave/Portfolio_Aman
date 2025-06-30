@@ -1,5 +1,6 @@
 [   
     {
+        "slug" : "ascendeum",
         "company" : "Ascendeum",
         "position" : "UI Engineer",
         "duration" : "May 2024 - Present", 
@@ -13,6 +14,7 @@
         ]
     },
     {
+        "slug" : "kalvium",
         "company" : "Kalvium",
         "position" : "Full-Stack Developer / Mentor",
         "duration" : "June 2023 - May 2024", 
@@ -25,6 +27,7 @@
         ]
     },
     {
+        "slug" : "reliance",
         "company" : "Reliance",
         "position" : "Senior Executive",
         "duration" : "Oct 2022 - Jan 2023", 

@@ -27,7 +27,7 @@ export default function Projects() {
                                 <div className="btns">
                                     <a href={project.deployed} className="btn" target="_blank"><i className="fas fa-eye"></i> View</a>
                                     <a href={project.github} className="btn" target="_blank"><i className="fas fa-code"></i> Code</a>
-                                    <Link to={`/projects/${idx}`} className="btn"><i className="fas fa-info-circle"></i> Details</Link>
+                                    <Link to={`/projects/${project.slug}`} className="btn"><i className="fas fa-info-circle"></i> Details</Link>
                                 </div>
                             </div>
                         </div>

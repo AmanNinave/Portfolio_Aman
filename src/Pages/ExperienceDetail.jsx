@@ -4,10 +4,10 @@ import ExperienceData from './Config/Experiance.json';
 import { motion } from 'framer-motion';
 
 const ExperienceDetail = () => {
-  const { id } = useParams();
+  const { slug } = useParams();
   const navigate = useNavigate();
-  const exp = ExperienceData[parseInt(id)];
-
+  const exp = ExperienceData.find((comp) => comp.slug == slug);
+  console.log(exp, slug, ExperienceData)
   if (!exp) return <div>Experience not found.</div>;
 
   return (
