@@ -7,7 +7,7 @@ const ExperienceDetail = () => {
   const { slug } = useParams();
   const navigate = useNavigate();
   const exp = ExperienceData.find((comp) => comp.slug == slug);
-  console.log(exp, slug, ExperienceData)
+  
   if (!exp) return <div>Experience not found.</div>;
 
   return (
