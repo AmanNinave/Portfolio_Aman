@@ -14,8 +14,10 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
     "emailjs": "^4.0.3",
+    "framer-motion": "^12.20.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^7.6.3",
     "react-toastify": "^10.0.5",
     "react-typed": "^2.0.12",
     "route": "^0.2.5"

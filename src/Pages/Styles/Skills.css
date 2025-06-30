@@ -4,20 +4,20 @@
 
 .skills {
     min-height: 90vh;
-    background-color: #ffffff00;
+    background-color: var(--background);
     /* background: linear-gradient(to bottom, #57059e, #4a00e0); */
     position: relative;
   }
   .skills h2 {
-    color: #fff;
+    color: var(--primary);
     margin-bottom: 3rem;
   }
   .skills .heading span {
-    color: rgb(255, 230, 0);
+    color: var(--accent);
   }
   .skills .container {
-    background: rgba(0, 0, 22, 0.4);
-    color: #fff;
+    background: var(--card-bg, rgba(0, 0, 22, 0.4));
+    color: var(--text);
     border-radius: 1rem;
     padding: 2rem;
     width: 90%;
@@ -37,13 +37,13 @@
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 1rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    background: rgba(0, 0, 22, 0.9);
+    box-shadow: 0 4px 10px var(--card-shadow, rgba(0, 0, 0, 0.2));
+    background: var(--card-bg, rgba(0, 0, 22, 0.9));
     transition: 0.2s;
   }
   .skills .container .bar:hover {
-    box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-    background-color: rgba(0, 0, 0, 0.9) !important;
+    box-shadow: 0 8px 10px var(--primary, rgba(0, 2, 68, 0.8)) !important;
+    background-color: var(--secondary, rgba(0, 0, 0, 0.9)) !important;
   }
   .skills .container .bar .info {
     display: flex;
@@ -60,6 +60,7 @@
     font-weight: 500;
     font-family: "Poppins";
     margin-left: 0.5rem;
+    color: var(--primary);
   }
 
 

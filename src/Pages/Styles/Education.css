@@ -1,25 +1,28 @@
 .education {
-  background: #e5ecfb00;
+  background: var(--background);
   min-height: 90vh;
   position: relative;
   text-align: center;
 }
 
 .education .heading {
-  color: #fff;
+  color: var(--primary);
   padding: 1rem;
 }
 
 .education .heading span {
-  color: rgb(255, 230, 0);
+  color: var(--accent);
 }
 
- .education .qoute {                            /*   This is not working */
+.education .quote {
+  color: var(--text);
+}
+
+.education .qoute {                            /*   This is not working */
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   margin: auto;
-  color: #fff;
   margin-top: 0.5rem;
   font-size: 1.5rem;
 }
@@ -69,7 +72,7 @@
 }
 .education .box-container .box .content h3 {
   font-size: 2.5rem;
-  color: #062e74;
+  color: var(--primary);
   padding: 0.5rem 0;
   font-weight: 600;
   text-align: left;
@@ -83,7 +86,7 @@
 }
 .education h4 {
   font-size: 2rem;
-  color: rgb(34, 109, 0);
+  color: var(--secondary);
   text-align: left;
   margin: 1rem;
   font-family: "Nunito", sans-serif;

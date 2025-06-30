@@ -1,6 +1,5 @@
-
 .work{
-    background: #01012400;
+    background: var(--background);
     position: relative;
     /* background: linear-gradient(to bottom, #2121e2, #00002c); */
   }
@@ -8,11 +7,11 @@
     font-weight: 600;
   }
   .work h2{
-    color: #fff;
+    color: var(--primary);
     padding: 1rem;
   }
   .work .heading span{
-    color: rgb(255, 230, 0);
+    color: var(--accent);
   }
   .work .box-container{
     display: flex;
@@ -24,7 +23,7 @@
   .work .box-container .box{
     flex:1 1 45rem;
     border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(225, 219, 219, 0.895);
+    box-shadow: 0 .5rem 1rem var(--card-shadow);
     position: relative;
     overflow:hidden;
     height:40rem;
@@ -43,7 +42,7 @@
     width:100%;
     position: absolute;
     top:70%; left:0;
-    background:rgba(255, 255, 255, 0.9);
+    background: var(--card-bg, #fff);
     display: flex;
     flex-direction: column;
   }
@@ -55,11 +54,11 @@
     height: 4.5rem;
     width: 100%;
     padding-left: 1rem;
-    background: #0f46a2;
+    background: var(--primary);
   }
   .work .box-container .box .content .tag h3{
     font-size: 2rem;
-    color: white;
+    color: #fff;
   }
   .work .box-container .box:hover .content{
     top: 25%;
@@ -86,11 +85,11 @@
     border-radius: .5rem;
     font-size: 1.5rem;
     color: #fff;
-    background: rgb(12, 12, 12);
+    background: var(--secondary);
     margin-right: 2rem;
   }
   .work .desc .btns .btn:hover{
-    background: #310ae0f5;
+    background: var(--primary);
   }
   .work .viewall{
     display: flex;

@@ -1,7 +1,6 @@
-
 section.experience#experience {
     position: relative;
-    background-color: #ffffff00;
+    background-color: var(--background);
 }
 .experience .timeline {
     position: relative;
@@ -12,7 +11,7 @@ section.experience#experience {
     content: '';
     position: absolute;
     width: 6px;
-    background: #020133;
+    background: var(--primary);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -33,15 +32,15 @@ section.experience#experience {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: rgb(239, 233, 233);
-    border: 4px solid #0f46a2;
+    background-color: var(--card-bg);
+    border: 4px solid var(--primary);
     top: 15px;
     border-radius: 50%;
     z-index: 100;
     font-size: 1.89rem;
     text-align: center;
     font-weight: 600;
-    color:#02094b;
+    color: var(--primary);
     font-family: 'Font Awesome\ 5 Free';
   }
   .experience .left {
@@ -60,10 +59,10 @@ section.experience#experience {
     width: 0;
     z-index: 10;
     right: 30px;
-    border: medium solid #0f46a2;
+    border: medium solid var(--primary);
     border-width: 10px 0 10px 10px;
-    border-color: #0f46a2 transparent  #0f46a2 transparent ;       /*   Need to change the color */
-    background-color: rgba(255, 255, 255, 0.90);
+    border-color: var(--primary) transparent  var(--primary) transparent ;       /*   Need to change the color */
+    background-color: var(--card-bg);
   }
   /* arrows pointing left  */
   .experience .right::before {
@@ -74,27 +73,28 @@ section.experience#experience {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid #0f46a2;
+    border: medium solid var(--primary);
     border-width: 10px 10px 10px 0;
-    border-color: #0f46a2 transparent #0f46a2 transparent;          /*   Need to change the color */
+    border-color: var(--primary) transparent var(--primary) transparent;          /*   Need to change the color */
     /* background-color : #0d47a1 ; */
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: var(--card-bg);
   }
   .experience .right::after {
     left: -16px;
   }
   .experience .content {
     /* background-color: #0f46a2; */
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: var(--card-bg);
     position: relative;
     border-radius: 6px;
-    color: black;
+    color: var(--text);
     padding: 0px 10px 0px 5px;
   }
   .experience .content .tag{
     font-size: 1.3rem;
     padding-top: 1.5rem;
     padding-left: 1.5rem;
+    color: var(--primary);
   }
   .experience .content .desc{
     margin-left: 2rem;
@@ -119,8 +119,8 @@ section.experience#experience {
     border-radius: .5em;
     transition: 0.5s;
     color: #fff;
-    background: #2506ad;
-    box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+    background: var(--primary);
+    box-shadow: 0px 5px 10px var(--primary, rgba(48, 68, 247, .6));
     text-align: center;
   }
   .morebtn .btn span {
@@ -134,7 +134,7 @@ section.experience#experience {
     transition: 0.3s;
   }
   .morebtn .btn:hover{
-    background: #1a047e;
+    background: var(--secondary);
   }
   .morebtn .btn:hover i {
     transform: translateX(5px);
@@ -161,9 +161,9 @@ section.experience#experience {
     }
     .experience .container::before {
       left: 70px;
-      border: medium solid #0f46a2;
+      border: medium solid var(--primary);
       border-width: 10px 10px 10px 0;
-      border-color: #0f46a2 transparent #0f46a2 transparent;  
+      border-color: var(--primary) transparent var(--primary) transparent;  
     }
     .experience .left::after {
       left: 15px;
