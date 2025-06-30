@@ -7,7 +7,12 @@
         "description" : "A website for tracking productivity, utilized to monitor the performance of warehouse associates.",
         "features" : "website offers features like adding new associates, Task management, Time tracking, changing shifts, a dashboard to show the statistics of associates, teams current status.",
         "github" : "https://github.com/AmanNinave/ProTrack",
-        "deployed" : "https://pro-track-home.vercel.app/"
+        "deployed" : "https://pro-track-home.vercel.app/",
+        "details" : [
+            "Developed a warehouse productivity tracking website for monitoring associate performance, including task allocation management by supervisors.",
+            "Implemented a real-time dashboard to monitor task time and productivity insights.",
+            "Implemented a secure user authentication system and a feature for adding new associates."
+        ]
     },
     {
         "slug" : "spotify",
@@ -17,7 +22,11 @@
         "description" : "A platform offering digital music, podcast, and video streaming services.",
         "features" : "The website offers features like user authentication, voice and text song search, playback controls, playlist creation, volume adjustment, and responsive design.",
         "github" : "https://github.com/ritikraj07/Project_Spotify.com",
-        "deployed" : "https://ritikraj07.github.io/Project_Spotify.com/HTML/index.html"
+        "deployed" : "https://ritikraj07.github.io/Project_Spotify.com/HTML/index.html",
+        "details" : [
+            "Includes user authentication, registration, and Offers user-friendly voice and text search for finding songs.",
+            "Playback controls, playlist creation, and volume adjustment for customizable listening experiences."
+        ]
     },
     {
         "slug" : "ikea",
@@ -27,16 +36,24 @@
         "description" : "An e-commerce platform that sells ready-to-assemble furniture and home accessories.",
         "features" : "The website offers user authentication, product filtering, cart and wish-list functions, product search, payment integration, and a responsive design.",
         "github" : "https://github.com/AmanNinave/IKEA/tree/main/ikea-clone",
-        "deployed" : "https://ikea-clone-ruddy.vercel.app/"
+        "deployed" : "https://ikea-clone-ruddy.vercel.app/",
+        "details" : [
+            "The website provides features such as user authentication, registration, and wish-list creation.",
+            "Offers functionalities such as product filtering, sorting along with a product search option.",
+            "Offers cart functionality, seamless payment options, and a responsive design for a smooth user experience."
+        ]
     },
     {
-        "slug" : "spotify",
+        "slug" : "skinstore",
         "img" : "skinstore.png" ,
         "title" : "Skinstore",
         "tech_stack" : "HTML | CSS | JavaScript",
         "description" : "An e-commerce platform that offers a vast catalog of beauty products, including skincare, haircare, and makeup.",
         "features" : "The website offers user authentication, product filtering, cart and wish-list functions, product search, payment integration, and a responsive design.",
         "github" : "https://github.com/AmanNinave/Skin_Store_Clone",
-        "deployed" : "https://idyllic-biscuit-d36106.netlify.app/an-skinstore/homepage/"
+        "deployed" : "https://idyllic-biscuit-d36106.netlify.app/an-skinstore/homepage/",
+        "details" : []
     }
 ]
+
+

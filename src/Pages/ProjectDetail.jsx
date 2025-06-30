@@ -21,6 +21,16 @@ const ProjectDetail = () => {
           <p><strong>Description:</strong> {project.description}</p>
           <p><strong>Tech Stack:</strong> {project.tech_stack}</p>
           <p><strong>Features:</strong> {project.features}</p>
+          {project.details && project.details.length > 0 && (
+            <div style={{ margin: '1.2rem 0' }}>
+              <strong>Details:</strong>
+              <ul style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
+                {project.details.map((item, idx) => (
+                  <li key={idx} style={{ marginBottom: '0.5rem', color: 'var(--text)' }}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
           <div className="btns">
             <a href={project.deployed} className="btn" target="_blank" rel="noopener noreferrer"><i className="fas fa-eye"></i> View</a>
             <a href={project.github} className="btn" target="_blank" rel="noopener noreferrer"><i className="fas fa-code"></i> Code</a>
