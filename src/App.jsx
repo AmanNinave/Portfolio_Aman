@@ -1,6 +1,6 @@
 import React ,{useState , useEffect , useMemo } from "react";
 import './App.css'
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 
 import Navbar from './Components/Navbar'
 import Home from './Pages/Home'
@@ -13,6 +13,18 @@ import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
 import ProjectDetail from './Pages/ProjectDetail';
 import ExperienceDetail from './Pages/ExperienceDetail';
+
+function NotFound() {
+  return (
+    <section className="not-found" style={{ minHeight: '60vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
+      <h2 className="heading"><i className="fas fa-exclamation-triangle"></i> 404 <span>Not Found</span></h2>
+      <p style={{ fontSize: '1.5rem', margin: '1.5rem 0' }}>Sorry, the page you are looking for does not exist.</p>
+      <Link to="/" className="btn" style={{ fontSize: '1.2rem', padding: '1rem 2.2rem', borderRadius: '0.5rem', marginTop: '1rem' }}>
+        Go to Home
+      </Link>
+    </section>
+  );
+}
 
 function App() {
   // Theme state
@@ -36,6 +48,7 @@ function App() {
         <Route path="/projects/:id" element={<ProjectDetail />} />
         <Route path="/education" element={<Education />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer/>
     </div>

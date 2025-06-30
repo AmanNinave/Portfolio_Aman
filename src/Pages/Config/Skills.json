@@ -56,11 +56,6 @@
         "category": "Frontend"
     },
     {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png",
-        "category": "Frontend"
-    },
-    {
         "name": "HTML5",
         "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png",
         "category": "Frontend"
@@ -134,5 +129,10 @@
         "name": "Team Work",
         "icon": "https://img.icons8.com/color/48/000000/teamwork.png",
         "category": "Other"
+    },
+    {
+        "name": "Tailwind CSS",
+        "icon": "https://img.icons8.com/color/48/000000/tailwindcss.png",
+        "category": "Frontend"
     }    
 ]
