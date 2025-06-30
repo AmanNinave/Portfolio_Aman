@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Projects() {
   return (
     <section className="work" id="work">
-        <h2 className="heading"><i className="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+        <h2 className="heading"><i className="fas fa-laptop-code"></i> Projects </h2>
         <div className="box-container">
 
             {

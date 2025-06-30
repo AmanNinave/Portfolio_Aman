@@ -113,11 +113,21 @@
     border-radius: .55rem;
     font-size: 1.1rem;
     color: #fff;
-    background: var(--secondary);
+    background: var(--primary);
     margin-right: 0;
+    transition: background 0.2s, color 0.2s;
+  }
+  .dark-theme .work .desc .btns .btn {
+    background: var(--secondary);
+    color: #fff;
   }
   .work .desc .btns .btn:hover {
+    background: var(--secondary);
+    color: #fff;
+  }
+  .dark-theme .work .desc .btns .btn:hover {
     background: var(--primary);
+    color: #fff;
   }
   .work .viewall{
     display: flex;
