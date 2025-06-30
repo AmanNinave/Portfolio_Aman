@@ -37,7 +37,7 @@ export default function About() {
                 </div>
                 
                 <div className="resumebtn">
-                    <a href="https://drive.google.com/file/d/1I-VZfo8UThbtMn0-22Wb3RxcM3MdsK1z/view?usp=sharing" className="btn"><span>Resume </span>
+                    <a href="https://drive.google.com/file/d/1c48zG5HMxmUq0WkvelLHevA14vU7I-2S/view?usp=sharing" className="btn"><span>Resume </span>
                         <i className="fas fa-chevron-right"></i>
                     </a>
                 </div>

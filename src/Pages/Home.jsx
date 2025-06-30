@@ -55,7 +55,7 @@ export default function Home() {
         </p>
 
         <button className="btn">
-          <a href="https://drive.google.com/file/d/18eopvpn2KOoiqy7qVN1KZqylVlpgGohO/view?usp=sharing"><span>Know More About Me </span> </a> 
+          <a href="https://drive.google.com/file/d/1c48zG5HMxmUq0WkvelLHevA14vU7I-2S/view?usp=sharing"><span>Know More About Me </span> </a> 
           <i className="fas fa-arrow-circle-up"></i>
         </button>
 
