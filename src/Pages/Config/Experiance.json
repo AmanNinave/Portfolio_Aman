@@ -1,8 +1,21 @@
-[
+[   
+    {
+        "company" : "Ascendeum",
+        "position" : "UI Engineer",
+        "duration" : "May 2024 - Present", 
+        "description" : [
+            "Diagnosed and resolved critical performance issues—including excessive DOM rendering and memory leaks—that were breaking the site in production, leading to a significantly more stable and responsive application." , 
+            "Integrated live-streaming, real-time charting features into existing data visualization dashboards using efficient rendering techniques and WebSocket-based data pipelines." , 
+            "Designed and implemented Redux-based global state management across the application, resolving complex state inconsistencies and improving overall app stability and user experience.",
+            "Engineered a real-time multi-user collaborative dashboard, enabling multiple users to simultaneously edit and sync changes live—improving collaboration flow and user engagement.",
+            "Developed a Superapps system using React and Micro-Frontends to enable seamless multitasking across apps with preserved context and improved user productivity.",
+            "Refactored, modularized, and thoroughly documented a large-scale frontend codebase, significantly improving readability, maintainability, scalability, and ease of onboarding for new developers."
+        ]
+    },
     {
         "company" : "Kalvium",
         "position" : "Full-Stack Developer / Mentor",
-        "duration" : "June 2023 - Present", 
+        "duration" : "June 2023 - May 2024", 
         "description" : [
             "Utilized React & NodeJS to develop an attendance management tool, incorporating Redux for state management." , 
             "Conducted 50+ interviews, led hackathon preparations, and actively managed a cohort of 40-50 students." , 
