@@ -1,7 +1,7 @@
 /* Modern Glassmorphism Footer */
 .footer {
   width: 100%;
-  background: var(--secondary, rgba(24, 24, 36, 0.85));
+  background: var(--card-bg);
   min-height: 15vh;
   backdrop-filter: blur(8px) saturate(160%);
   border-radius: 1.5rem 1.5rem 0 0;
@@ -11,6 +11,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.dark-theme .footer {
+  background: var(--secondary);
 }
 .footer .box-container {
   display: flex;

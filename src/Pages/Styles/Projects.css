@@ -13,82 +13,94 @@
   .work .heading span{
     color: var(--accent);
   }
-  .work .box-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    margin: 2rem;
+  .work .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    width: 100%;
+    justify-items: center;
   }
-  .work .box-container .box{
-    flex:1 1 45rem;
-    border-radius: .5rem;
+  .work .box-container .box {
+    width: 340px;
+    height: 420px;
+    border-radius: .7rem;
     box-shadow: 0 .5rem 1rem var(--card-shadow);
     position: relative;
-    overflow:hidden;
-    height:40rem;
-    max-width: 60rem;
-  }
-
-  .work .box-container .box img{
-    position: absolute;
-    top: -16%;
-    height: 100%;
-    width:100%;
-    object-fit: contain;
-  }
-  .work .box-container .box .content{
-    height: 100%;
-    width:100%;
-    position: absolute;
-    top:70%; left:0;
-    background: var(--card-bg, #fff);
+    overflow: hidden;
+    background: var(--card-bg);
     display: flex;
     flex-direction: column;
+    transition: box-shadow 0.2s, transform 0.2s;
   }
-  .work .box-container .box .content .tag{
+  .work .box-container .box:hover {
+    box-shadow: 0 8px 24px var(--primary, #2b3dda33);
+    transform: translateY(-6px) scale(1.03);
+  }
+  .work .box-container .box img {
+    position: relative;
+    height: 180px;
+    width: 100%;
+    object-fit: contain;
+    background: #f7f7f7;
+    border-bottom: 1px solid var(--card-shadow);
+  }
+  .work .box-container .box .content {
+    flex: 1 1 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: var(--card-bg, #fff);
+    position: relative;
+    top: 0;
+    padding: 1.2rem 1.2rem 0.8rem 1.2rem;
+  }
+  .work .box-container .box .content .tag {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    height: 4.5rem;
+    height: 3.2rem;
     width: 100%;
-    padding-left: 1rem;
-    background: var(--primary);
+    padding-left: 0;
+    background: none;
+    margin-bottom: 0.7rem;
   }
-  .work .box-container .box .content .tag h3{
-    font-size: 2rem;
-    color: #fff;
-  }
-  .work .box-container .box:hover .content{
-    top: 25%;
+  .work .box-container .box .content .tag h3 {
+    font-size: 1.4rem;
+    color: var(--primary);
+    font-weight: 700;
   }
   .work .desc {
-    margin: 2rem;
+    margin: 0.5rem 0 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    flex: 1 1 auto;
   }
-  .work .desc p{
-    font-size: 1.5rem;
+  .work .desc p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
   }
-  .work .desc .btns{
+  .work .desc .btns {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 1rem;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
   }
-  .work .desc .btns .btn{
+  .work .desc .btns .btn {
     line-height: 0;
-    display: inline;
-    padding: 1.5rem 2.5rem;
+    display: inline-block;
+    padding: 1rem 1.7rem;
     border-radius: .5rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #fff;
     background: var(--secondary);
-    margin-right: 2rem;
+    margin-right: 0;
   }
-  .work .desc .btns .btn:hover{
+  .work .desc .btns .btn:hover {
     background: var(--primary);
   }
   .work .viewall{
@@ -127,21 +139,19 @@
   
 
 
-  @media screen and (max-width: 680px) {
-    .work .box-container .box{
-      height:40rem;
+  @media (max-width: 700px) {
+    .work .box-container {
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.2rem;
     }
-    .work .box-container .box img{
-      top: -18%;
+    .work .box-container .box {
+      width: 98%;
+      min-width: 220px;
+      height: 370px;
     }
-    .work .box-container .box .content{
-     
-      top:67%; 
+    .work .box-container .box img {
+      height: 120px;
     }
-    .work .box-container .box:hover .content{
-      top: 18%;
-    }
-
   }
 
 
