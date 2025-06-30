@@ -234,3 +234,16 @@ section.experience#experience {
   color: #fff;
   box-shadow: 0 6px 18px var(--accent, #8ab4f8);
 }
+
+.heading {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+.heading span {
+  color: var(--accent);
+}

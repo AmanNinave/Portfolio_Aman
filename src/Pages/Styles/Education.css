@@ -7,7 +7,12 @@
 
 .education .heading {
   color: var(--primary);
-  padding: 1rem;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 
 .education .heading span {

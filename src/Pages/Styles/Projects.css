@@ -268,4 +268,17 @@
       padding :1rem 1.5rem ;
       width: 100px;
     }
-  } 
+  }
+
+.heading {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+.heading span {
+  color: var(--accent);
+} 
