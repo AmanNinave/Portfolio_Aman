@@ -1,5 +1,6 @@
 import React from 'react'
 import './../Pages/Styles/Experience.css'
+import { Link } from 'react-router-dom'
 
 const ExperienceEntry = ({ company, position, duration, description , index}) => {
     return (
@@ -16,6 +17,9 @@ const ExperienceEntry = ({ company, position, duration, description , index}) =>
                 return <li key={idx}> {elem}</li>
               })}
             </ul>
+          </div>
+          <div style={{textAlign: 'right', marginTop: '1.2rem'}}>
+            <Link to={`/experience/${index}`} className="btn"><i className="fas fa-info-circle"></i> Details</Link>
           </div>
         </div>
       </div>

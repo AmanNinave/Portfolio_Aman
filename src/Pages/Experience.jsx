@@ -22,9 +22,6 @@ export default function Experience() {
                   description= {Experiance.description}
                   index ={index}
                 />
-                <div style={{textAlign: 'right', marginRight: '2rem'}}>
-                  <Link to={`/experience/${index}`} className="btn"><i className="fas fa-info-circle"></i> Details</Link>
-                </div>
               </div>
             )
           })
