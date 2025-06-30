@@ -3,7 +3,7 @@
 }
 
 .skills {
-    min-height: 90vh;
+    min-height: 100vh;
     background-color: var(--background);
     /* background: linear-gradient(to bottom, #57059e, #4a00e0); */
     position: relative;

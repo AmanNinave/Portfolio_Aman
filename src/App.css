@@ -155,3 +155,13 @@ section{
   gap: 1rem;
   margin-top: 1.5rem;
 }
+
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex: 1 0 auto;
+}

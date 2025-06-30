@@ -24,7 +24,7 @@ function App() {
   }, [theme]);
 
   return (
-    <>
+    <div className="app-wrapper">
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -38,7 +38,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>
-    </>
+    </div>
   )
 }
 

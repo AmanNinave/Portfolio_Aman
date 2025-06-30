@@ -1,6 +1,6 @@
 .education {
   background: var(--background);
-  min-height: 90vh;
+  min-height: 100vh;
   position: relative;
   text-align: center;
 }
