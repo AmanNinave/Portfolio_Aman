@@ -165,3 +165,13 @@ section{
 section {
   flex: 1 0 auto;
 }
+
+.experience-detail h3 {
+  color: var(--secondary);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.dark-theme .experience-detail h3 {
+  color: var(--primary);
+}
