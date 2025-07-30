@@ -11,7 +11,29 @@
             "Engineered a real-time multi-user collaborative dashboard, enabling multiple users to simultaneously edit and sync changes live—improving collaboration flow and user engagement.",
             "Developed a Superapps system using React and Micro-Frontends to enable seamless multitasking across apps with preserved context and improved user productivity.",
             "Refactored, modularized, and thoroughly documented a large-scale frontend codebase, significantly improving readability, maintainability, scalability, and ease of onboarding for new developers."
-        ]
+        ],
+        "performance" : {
+            "title" : "Performance",
+            "links" : [
+                {
+                    "title" : "Performance",
+                    "link" : "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing"
+                },
+                {
+                    "title" : "Performance",
+                    "link" : "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing"
+                },
+                {
+                    "title" : "Performance",
+                    "link" : "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing"
+                },
+                {
+                    "title" : "Performance",
+                    "link" : "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing"
+                }
+            ]
+        }
+        
     },
     {
         "slug" : "kalvium",
