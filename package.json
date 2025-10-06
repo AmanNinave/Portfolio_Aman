@@ -13,6 +13,7 @@
     "@emailjs/browser": "^4.3.3",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
+    "cloudinary": "^2.7.0",
     "emailjs": "^4.0.3",
     "framer-motion": "^12.20.1",
     "react": "^18.2.0",

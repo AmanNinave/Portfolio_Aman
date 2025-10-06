@@ -13,6 +13,7 @@ import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
 import ProjectDetail from './Pages/ProjectDetail';
 import ExperienceDetail from './Pages/ExperienceDetail';
+import CloudinaryUpload from "./Components/CloudinaryUpload";
 
 function NotFound() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path="/projects/:slug" element={<ProjectDetail />} />
         <Route path="/education" element={<Education />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/cloudinary-upload" element={<CloudinaryUpload />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer/>

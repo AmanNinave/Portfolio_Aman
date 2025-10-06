@@ -13,23 +13,27 @@
             "Refactored, modularized, and thoroughly documented a large-scale frontend codebase, significantly improving readability, maintainability, scalability, and ease of onboarding for new developers."
         ],
         "performance" : {
-            "title" : "Performance",
+            "title" : "Performance Metrics",
             "links" : [
                 {
-                    "title" : "Performance",
-                    "link" : "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing"
+                    "title": "Performance",
+                    "link": "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing",
+                    "cloudinaryUrl": "https://res.cloudinary.com/your-cloud/image/upload/..."
                 },
                 {
-                    "title" : "Performance",
-                    "link" : "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing"
+                    "title": "Performance",
+                    "link": "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing",
+                    "cloudinaryUrl": "https://res.cloudinary.com/your-cloud/image/upload/..."
                 },
                 {
-                    "title" : "Performance",
-                    "link" : "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing"
+                    "title": "Performance",
+                    "link": "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing",
+                    "cloudinaryUrl": "https://res.cloudinary.com/your-cloud/image/upload/..."
                 },
                 {
-                    "title" : "Performance",
-                    "link" : "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing"
+                    "title": "Performance",
+                    "link": "https://drive.google.com/file/d/1ne8ks4gHLBUZt1KzxX5cBWIv7rQ7_etb/view?usp=sharing",
+                    "cloudinaryUrl": "https://res.cloudinary.com/your-cloud/image/upload/..."
                 }
             ]
         }

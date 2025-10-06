@@ -1,0 +1,153 @@
+.cloudinary-upload {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px var(--card-shadow);
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1));
+}
+
+.cloudinary-upload h3 {
+  color: var(--primary);
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.upload-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: var(--background);
+  border-radius: 8px;
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1));
+}
+
+.upload-section h4 {
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.upload-section input[type="file"],
+.upload-section input[type="text"] {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid var(--border-color, rgba(255, 255, 255, 0.1));
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.upload-section input[type="file"]:focus,
+.upload-section input[type="text"]:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.upload-section button {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-section button:hover:not(:disabled) {
+  background: var(--secondary);
+  transform: translateY(-2px);
+}
+
+.upload-section button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.uploaded-url {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--background);
+  border-radius: 8px;
+  border: 1px solid var(--border-color, rgba(255, 255, 255, 0.1));
+}
+
+.uploaded-url h4 {
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.uploaded-url input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid var(--border-color, rgba(255, 255, 255, 0.1));
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-family: monospace;
+}
+
+.uploaded-url button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.uploaded-url button:hover {
+  background: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .cloudinary-upload {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .upload-section {
+    padding: 1rem;
+  }
+  
+  .uploaded-url {
+    padding: 1rem;
+  }
+}
+
+/* Loading state */
+.upload-section button:disabled {
+  position: relative;
+}
+
+.upload-section button:disabled::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  border: 2px solid transparent;
+  border-top: 2px solid #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
