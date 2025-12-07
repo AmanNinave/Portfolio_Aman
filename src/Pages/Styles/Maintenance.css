@@ -1,0 +1,252 @@
+.maintenance-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.maintenance-container::before {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  top: -250px;
+  left: -250px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.maintenance-container::after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  bottom: -200px;
+  right: -200px;
+  animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.maintenance-content {
+  text-align: center;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 4rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+  animation: slideIn 0.6s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.maintenance-icon {
+  font-size: 5rem;
+  color: #667eea;
+  margin-bottom: 2rem;
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.maintenance-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.maintenance-heading span {
+  color: #667eea;
+  display: inline-block;
+}
+
+.maintenance-message {
+  font-size: 1.3rem;
+  color: #4a5568;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.maintenance-submessage {
+  font-size: 1.1rem;
+  color: #718096;
+  margin-bottom: 2rem;
+}
+
+.maintenance-loader {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.maintenance-loader .dot {
+  width: 12px;
+  height: 12px;
+  background: #667eea;
+  border-radius: 50%;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.maintenance-loader .dot:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.maintenance-loader .dot:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.maintenance-contact {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.maintenance-contact p {
+  font-size: 1rem;
+  color: #718096;
+  margin-bottom: 0.8rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #764ba2;
+  transform: translateY(-2px);
+}
+
+.contact-link i {
+  font-size: 1.2rem;
+}
+
+/* Dark theme support */
+body.dark-theme .maintenance-content {
+  background: rgba(26, 32, 44, 0.95);
+}
+
+body.dark-theme .maintenance-heading {
+  color: #f7fafc;
+}
+
+body.dark-theme .maintenance-message {
+  color: #e2e8f0;
+}
+
+body.dark-theme .maintenance-submessage {
+  color: #cbd5e0;
+}
+
+body.dark-theme .maintenance-contact {
+  border-top-color: #4a5568;
+}
+
+body.dark-theme .maintenance-contact p {
+  color: #cbd5e0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .maintenance-content {
+    padding: 3rem 2rem;
+  }
+
+  .maintenance-icon {
+    font-size: 4rem;
+  }
+
+  .maintenance-heading {
+    font-size: 2.2rem;
+  }
+
+  .maintenance-message {
+    font-size: 1.1rem;
+  }
+
+  .maintenance-submessage {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .maintenance-container {
+    padding: 1rem;
+  }
+
+  .maintenance-content {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .maintenance-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .maintenance-heading {
+    font-size: 1.8rem;
+  }
+
+  .maintenance-message {
+    font-size: 1rem;
+  }
+
+  .maintenance-submessage {
+    font-size: 0.9rem;
+  }
+
+  .contact-link {
+    font-size: 1rem;
+  }
+}
+
